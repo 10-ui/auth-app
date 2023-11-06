@@ -4,7 +4,7 @@ import '../globals.css'
 export const metadata: Metadata = {
   title: {
     default: 'Supabase + Next.js',
-    template: "Supabase + Next.js | %s"
+    template: "%s | Supabase + Next.js"
   },
   };
 

@@ -1,5 +1,4 @@
 'use client';
-import Head from 'next/head';
 import { useState } from 'react';
 import { supabase } from '../../../../utils/supabase';
 
@@ -26,9 +25,6 @@ export default function Signup() {
 
   return (
     <>
-      <Head>
-        <title>新規登録</title>
-      </Head>
       <div className="container h-screen grid items-center justify-center">
         <div className="inner">
           <h1 className="text-2xl font-bold text-center">新規登録フォーム</h1>
@@ -67,7 +63,9 @@ export default function Signup() {
               />
             </div>
             <div>
-              <button className='bg-orange-300 py-1 px-3 rounded' type="submit">サインアップ</button>
+              <button className="bg-orange-300 py-1 px-3 rounded" type="submit">
+                サインアップ
+              </button>
             </div>
           </form>
         </div>

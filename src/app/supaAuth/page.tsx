@@ -1,9 +1,10 @@
+import Link from "next/link";
 
-export default function Register() {
+export default function supaAuth() {
 
   return (
     <>
-      <a href="/Signup">aaaaaa</a>
+      <Link href="/supaAuth/Signup">Auth in Next step</Link>
     </>
   );
 }
