@@ -2,7 +2,10 @@ import type { Metadata } from 'next'
 import '../globals.css'
 
 export const metadata: Metadata = {
-    title: "Supabase + Next.js"
+  title: {
+    default: 'Supabase + Next.js',
+    template: "Supabase + Next.js | %s"
+  },
   };
 
 export default function RootLayout({

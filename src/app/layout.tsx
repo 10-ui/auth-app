@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     default: 'auth App',
     template: "%s | auth App"
   },
-  description: 'simple admin tool for All developers',
+  description: 'Auth tools for education',
   icons: [{rel: 'icon', url: Favicon.src }],
 }
 
